@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Full PCM History.xlsx</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Status" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Task ID" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Order ID" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="TT ID" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="TT Type" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Region" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Site ID" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Site Name" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Root Cause" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Sub Cause" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Action Taken" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="FME" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Created At" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Last Update" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="SLA" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Title" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_WString" />
+            <Field name="Create Fault First Time Occured" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Fault Level" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Alarm ID" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Alarm Name" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Alarm Time" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Priority" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Access Type" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Area" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Power Type" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Impact" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Impact Site List" size="904" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Initial Owner" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Site Required Action" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="Double" />
+            <Field name="Linked Sites" size="3536" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Old PCM ID" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Old Escalate Reason" size="2380" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Old Escalate Needed Action" size="2380" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Supplementary Information" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Down Sites" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Fault Recovery Time" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Generated By" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Dispatched" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Delivered" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Accept" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Departed" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Arrived" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="FME Request" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Completed" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="User Action" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Updated Owner" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Resolved Owner" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Escalated To" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Skill" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="Sub Project" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="extra_description" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_WString" />
+            <Field name="pcm_status" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="canellation_reason" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+            <Field name="source_name" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Full PCM History.xlsx" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Click\Desktop\Intership\second task\Ex OD.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Ex OD.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Order ID" size="255" source="File: C:\Users\Click\Desktop\Intership\second task\Ex OD.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="162" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Order ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Order ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Order ID" selected="True" rename="Right_Order ID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="270" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!Contains([Status], "Escalated") AND !Contains([Status], "Cancel") AND [Sub Project] = "LATIS" AND [TT Type] IN ("EM", "Reference_EM", "Telecom", "Reference_Telecom") AND !Contains([Title], "HC") AND !Contains([Title], "PT") AND !Contains([Title], "PM Error") AND !Contains([Title], "Performance Issue") AND !Contains([Title], "Visibility") AND !Contains([Title], "Dust") AND !Contains([Title], "Chassis") AND !Contains([Title], "Health")</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!Contains([Status], "Escalated") AND !Contains([Status], "Cancel") AND [Sub Proj...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="402" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Status" selected="True" />
+            <SelectField field="Task ID" selected="True" />
+            <SelectField field="Order ID" selected="True" />
+            <SelectField field="TT ID" selected="True" />
+            <SelectField field="TT Type" selected="True" />
+            <SelectField field="Region" selected="True" />
+            <SelectField field="Site ID" selected="True" />
+            <SelectField field="Site Name" selected="True" />
+            <SelectField field="Root Cause" selected="True" />
+            <SelectField field="Sub Cause" selected="True" />
+            <SelectField field="Action Taken" selected="True" />
+            <SelectField field="FME" selected="True" />
+            <SelectField field="Created At" selected="True" />
+            <SelectField field="Last Update" selected="True" />
+            <SelectField field="SLA" selected="True" />
+            <SelectField field="Title" selected="True" />
+            <SelectField field="Create Fault First Time Occured" selected="True" />
+            <SelectField field="Fault Level" selected="True" />
+            <SelectField field="Alarm ID" selected="True" />
+            <SelectField field="Alarm Name" selected="True" />
+            <SelectField field="Alarm Time" selected="True" />
+            <SelectField field="Priority" selected="True" />
+            <SelectField field="Access Type" selected="True" />
+            <SelectField field="Area" selected="True" />
+            <SelectField field="Power Type" selected="True" />
+            <SelectField field="Impact" selected="True" />
+            <SelectField field="Impact Site List" selected="True" />
+            <SelectField field="Initial Owner" selected="True" />
+            <SelectField field="Site Required Action" selected="True" />
+            <SelectField field="Linked Sites" selected="True" />
+            <SelectField field="Old PCM ID" selected="True" />
+            <SelectField field="Old Escalate Reason" selected="True" />
+            <SelectField field="Old Escalate Needed Action" selected="True" />
+            <SelectField field="Supplementary Information" selected="True" />
+            <SelectField field="Down Sites" selected="True" />
+            <SelectField field="Fault Recovery Time" selected="True" />
+            <SelectField field="Generated By" selected="True" />
+            <SelectField field="Dispatched" selected="True" />
+            <SelectField field="Delivered" selected="True" />
+            <SelectField field="Accept" selected="True" />
+            <SelectField field="Departed" selected="True" />
+            <SelectField field="Arrived" selected="True" />
+            <SelectField field="FME Request" selected="True" />
+            <SelectField field="Completed" selected="True" />
+            <SelectField field="User Action" selected="True" />
+            <SelectField field="Updated Owner" selected="True" />
+            <SelectField field="Resolved Owner" selected="True" />
+            <SelectField field="Escalated To" selected="True" />
+            <SelectField field="Skill" selected="True" />
+            <SelectField field="Sub Project" selected="True" />
+            <SelectField field="extra_description" selected="True" />
+            <SelectField field="pcm_status" selected="True" />
+            <SelectField field="canellation_reason" selected="True" />
+            <SelectField field="source_name" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="522" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Fault Recovery Time</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy hh:mm:ss</Format>
+          <OutputFieldName>Fault Recovery Time_</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Fault Recovery Time From:
+MM/dd/yyyy hh:mm:ss</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="630" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Created At</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy hh:mm:ss</Format>
+          <OutputFieldName>Created At_</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Created At From:
+MM/dd/yyyy hh:mm:ss</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="822" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeDiff([Fault Recovery Time_], [Created At_], &quot;seconds&quot;)" field="Duration" size="8" type="Int64" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Duration = DateTimeDiff([Fault Recovery Time_], [Created At_], "seconds")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="918" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if Contains([Impact], &quot;NSA&quot;) then &quot;NSA&quot; else &quot;SA&quot; endif" field="Affected?" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Affected? = if Contains([Impact], "NSA") then "NSA" else "SA" endif
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="726" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Created At" selected="False" />
+            <SelectField field="Fault Recovery Time" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1014" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if [Affected?] = &quot;NSA&quot; then &quot;Minor&quot; else [Fault Level] endif" field="Fault Level" size="255" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Fault Level = if [Affected?] = "NSA" then "Minor" else [Fault Level] endif
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1110" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if [Fault Level]=&quot;Emergency&quot; AND [Duration]&gt;7200 THEN &quot;NOK&quot; &#xA;elseif [Fault Level]=&quot;Critical&quot; AND [Duration]&gt;14400 THEN &quot;NOK&quot; &#xA;elseif [Fault Level]=&quot;Major&quot; AND [Duration]&gt;28800 THEN &quot;NOK&quot; &#xA;elseif [Fault Level]=&quot;Minor&quot; AND [Duration]&gt;43200 THEN &quot;NOK&quot; &#xA;elseif [Resolved Owner]=&quot;&quot; THEN &quot;NOK&quot; &#xA;elseif [Fault Recovery Time_]=&quot;N/A&quot; or [Fault Recovery Time_]=&quot;&quot; or isnull([Fault Recovery Time_]) THEN &quot;NOK&quot; &#xA;else &quot;&quot; endif " field="Target" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Target = if [Fault Level]="Emergency" AND [Duration]&gt;7200 THEN "NOK" 
+elseif [Fa...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1206" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if [Fault Level]=&quot;Emergency&quot; AND [Duration]&gt;14400 THEN &quot;NOK&quot; &#xA;elseif [Fault Level]=&quot;Critical&quot; AND [Duration]&gt;21600 THEN &quot;NOK&quot; &#xA;elseif [Fault Level]=&quot;Major&quot; AND [Duration]&gt;43200 THEN &quot;NOK&quot; &#xA;elseif [Fault Level]=&quot;Minor&quot; AND [Duration]&gt;86400 THEN &quot;NOK&quot; &#xA;elseif [Resolved Owner]=&quot;&quot; THEN &quot;NOK&quot; &#xA;elseif [Fault Recovery Time_]=&quot;N/A&quot; or [Fault Recovery Time_]=&quot;&quot; or isnull([Fault Recovery Time_]) THEN &quot;NOK&quot; &#xA;else &quot;&quot; endif" field="Hurdle" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Hurdle = if [Fault Level]="Emergency" AND [Duration]&gt;14400 THEN "NOK" 
+elseif [F...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1302" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Fault Level" action="GroupBy" rename="Fault Level" />
+            <SummarizeField field="Fault Level" action="Count" rename="Total PCMs" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Left" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Workflow2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="f8af92c0-ecb6-4aea-9be4-3a931122f18e" />
+      <Telemetry>
+        <PreviousWorkflowId value="9f0c43f9-82a0-41ee-9893-a50bca140956" />
+        <OriginWorkflowId value="9f0c43f9-82a0-41ee-9893-a50bca140956" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

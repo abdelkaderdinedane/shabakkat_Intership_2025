@@ -1,0 +1,5 @@
+Fault Level,Total PCMs,Exceeded Target SLA,Within Target SLA,"Achieved_Target_SLA % ",Target,Exceeded Hurdle SLA,Within Hurdle SLA,"Achieved_Hurdle_SLA % ",Hurdle
+Emergency,43,1,42,97.67%,90% < 2 hours,0,43,100%,96% < 4 hours
+Critical,964,12,952,98.76%,90% < 4 hours,7,957,99.27%,95% < 6 hours
+Major,3400,14,3386,99.59%,90% < 8 hours,9,3391,99.74%,95% < 12 hours
+Minor,11035,1254,9781,88.64%,90% < 12 hours,733,10302,93.36%,95% < 24 hours
